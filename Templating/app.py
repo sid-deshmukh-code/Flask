@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    puppies = ['Fluffy', 'Rufus', 'Spike', 'p','r','o','g','r','a','m','i','z']
+    puppies = ['Fluffy', 'Rufus', 'Spike', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z']    # Using jinja templating 
     return render_template('index.html',
                            puppies=puppies)
 
